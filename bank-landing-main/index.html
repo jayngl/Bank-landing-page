@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>easybank</title>
+  </head>
+  <body class="font-public">
+    <!-- header -->
+    <header
+      class="flex justify-between items-center px-5 desktop:px-20 py-5 relative z-20 bg-white"
+    >
+      <img src="/images/logo.svg" alt="easybank logo" class="w-[11em]" />
+      <nav>
+        <ul
+          class="desktop:flex justify-center items-center text-[18px] text-Grayish-Blue hidden"
+        >
+          <li class="px-5 hover:text-Lime-Green cursor-pointer">
+            <a href="#home">Home</a>
+          </li>
+          <li class="px-5 hover:text-Lime-Green cursor-pointer">
+            <a href="#About">About</a>
+          </li>
+          <li class="px-5 hover:text-Lime-Green cursor-pointer">
+            <a href="#Contact">Contact</a>
+          </li>
+          <li class="px-5 hover:text-Lime-Green cursor-pointer">
+            <a href="#Blog">Blog</a>
+          </li>
+          <li class="px-5 hover:text-Lime-Green cursor-pointer">
+            <a href="#Careers">Careers</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button
+        class="bg-gradient-to-r from-Lime-Green to-Bright-Cyan text-white px-7 py-4 rounded-full text-[18px] hidden desktop:block hover:brightness-125 cursor-pointer"
+      >
+        Request Invite
+      </button>
+      <img
+        src="/images/icon-hamburger.svg"
+        alt="menu icon"
+        class="w-[2.5em] desktop:hidden"
+      />
+    </header>
+    <!-- hero -->
+    <section
+      class="relative flex justify-center items-center flex-col pb-28 desktop:flex-row desktop:pl-20 overflow-hidden"
+    >
+      <img
+        src="/images/bg-intro-mobile.svg"
+        alt="mobile hero background"
+        class="w-full desktop:hidden"
+      />
+      <img
+        src="/images/image-mockups.png"
+        alt="mobile hero image"
+        class="absolute -top-[8.4em] z-10 desktop:hidden"
+      />
+
+      <div
+        class="flex justify-center items-center flex-col px-5 text-center desktop:items-start desktop:text-left"
+      >
+        <h1 class="text-[2.7em] text-Dark-Blue">
+          Next generation digital banking
+        </h1>
+
+        <p class="text-[18px] my-7 text-Grayish-Blue">
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much
+          more.
+        </p>
+
+        <button
+          class="bg-gradient-to-r from-Lime-Green to-Bright-Cyan text-white px-7 py-4 rounded-full text-[18px] hover:brightness-125 cursor-pointer"
+        >
+          Request Invite
+        </button>
+      </div>
+
+      <div class="relative desktop:block w-full hidden -right-32">
+        <img
+          src="/images/bg-intro-desktop.svg"
+          alt="mobile hero background"
+          class="w-full"
+        />
+        <img
+          src="/images/image-mockups.png"
+          alt="mobile hero image"
+          class="absolute -top-[8.4em] z-10"
+        />
+      </div>
+    </section>
+
+    <!-- Info section -->
+    <section
+      class="bg-Light-Grayish-Blue pt-10 desktop:px-20 flex justify-center items-center flex-col desktop:items-start"
+    >
+      <div
+        class="flex justify-center items-start desktop:items-start flex-col px-5 mt-14 text-center desktop:text-left max-w-[40em]"
+      >
+        <h1 class="text-[2.7em] text-Dark-Blue">Why choose EasyBank?</h1>
+
+        <p class="text-[18px] my-7 text-Grayish-Blue">
+          We leverage Open Banking to turn your bank account into a financial
+          hub. Control your finances like never before.
+        </p>
+      </div>
+
+      <div class="flex justify-center items-start flex-col desktop:flex-row">
+        <div
+          class="flex justify-center items-center flex-col px-5 mt-14 text-center desktop:items-start desktop:text-left"
+        >
+          <img
+            src="/images/icon-online.svg"
+            alt="online backing icon"
+            class="my-5 w-[6.5em]"
+          />
+          <h1 class="text-[1.5em] text-Dark-Blue">Online Banking</h1>
+
+          <p class="text-[18px] my-7 text-Grayish-Blue">
+            Our modern web and mobile applications allow you to keep track of
+            your finances wherever you are in the world.
+          </p>
+        </div>
+
+        <div
+          class="flex justify-center items-center flex-col px-5 mt-14 text-center desktop:items-start desktop:text-left"
+        >
+          <img
+            src="/images/icon-budgeting.svg"
+            alt="budgeting icon"
+            class="my-5 w-[6.5em]"
+          />
+          <h1 class="text-[1.5em] text-Dark-Blue">Simple Budgeting</h1>
+
+          <p class="text-[18px] my-7 text-Grayish-Blue">
+            See exactly where your money goes each month. Recieve notifications
+            when you're close to your hitting limits.
+          </p>
+        </div>
+
+        <div
+          class="flex justify-center items-center flex-col px-5 mt-14 text-center desktop:items-start desktop:text-left"
+        >
+          <img
+            src="/images/icon-onboarding.svg"
+            alt="Onboarding icon"
+            class="my-5 w-[6.5em]"
+          />
+          <h1 class="text-[1.5em] text-Dark-Blue">Fast Onboarding</h1>
+
+          <p class="text-[18px] my-7 text-Grayish-Blue">
+            We don't do branches. Open your account in minutes online and start
+            taking control of your finances right away.
+          </p>
+        </div>
+
+        <div
+          class="flex justify-center items-center flex-col px-5 mt-14 text-center desktop:items-start desktop:text-left"
+        >
+          <img
+            src="/images/icon-api.svg"
+            alt="api icon"
+            class="my-5 w-[6.5em]"
+          />
+          <h1 class="text-[1.5em] text-Dark-Blue">Open API</h1>
+
+          <p class="text-[18px] my-7 text-Grayish-Blue">
+            Manage your savings, investments, pension, and much more from one
+            account. Tracking your money has never been easier
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles -->
+    <section
+      class="py-32 px-5 flex flex-col justify-center items-center desktop:items-start desktop:px-20"
+    >
+      <h1 class="text-5xl mb-10 text-Dark-Blue">Latest Articles</h1>
+      <div
+        class="flex justify-center items-center flex-col desktop:flex-row desktop:gap-x-5 desktop:items-start"
+      >
+        <article class="rounded-[.5em] overflow-hidden mb-16 w-[18em]">
+          <img
+            src="/images/image-currency.jpg"
+            alt="currency image"
+            class="desktop:h-[13.5em] desktop:w-[27em]"
+          />
+          <div
+            class="mt-10 mx-5 flex justify-center items-start flex-col gap-y-5"
+          >
+            <p class="text-Grayish-Blue">By Claire Robinson</p>
+            <h3
+              class="text-[20px] text-Dark-Blue hover:text-Lime-Green cursor-pointer"
+            >
+              Recieve money in any currency with no fees
+            </h3>
+            <p class="text-Grayish-Blue">
+              The world is getting smaller and we're becoming more mobile. So
+              why should you be forced to only recieve money in a single ...
+            </p>
+          </div>
+        </article>
+
+        <article class="rounded-[.5em] overflow-hidden mb-16 w-[18em]">
+          <img
+            src="/images/image-restaurant.jpg"
+            alt="restaurant image"
+            class="desktop:h-[13.5em] desktop:w-[27em]"
+          />
+          <div
+            class="mt-10 mx-5 flex justify-center items-start flex-col gap-y-5"
+          >
+            <p class="text-Grayish-Blue">By Wilson Hutton</p>
+            <h3
+              class="text-[20px] text-Dark-Blue hover:text-Lime-Green cursor-pointer"
+            >
+              Treat yourself without worrying about money
+            </h3>
+            <p class="text-Grayish-Blue">
+              Our simple budgeting feature allows you to separate out your
+              spending and set realistic limits each month. That mean you ...
+            </p>
+          </div>
+        </article>
+
+        <article class="rounded-[.5em] overflow-hidden mb-16 w-[18em]">
+          <img
+            src="/images/image-plane.jpg"
+            alt="plane image"
+            class="desktop:h-[13.5em] desktop:w-[27em]"
+          />
+          <div
+            class="mt-10 mx-5 flex justify-center items-start flex-col gap-y-5"
+          >
+            <p class="text-Grayish-Blue">By Wilson Hutton</p>
+            <h3
+              class="text-[20px] text-Dark-Blue hover:text-Lime-Green cursor-pointer"
+            >
+              Take your Easybank card wherever you go
+            </h3>
+            <p class="text-Grayish-Blue">
+              We want you to enjoy your travels. This is why we don't charge any
+              fees on purchases while you're abroad. We'll even show you ...
+            </p>
+          </div>
+        </article>
+
+        <article class="rounded-[.5em] overflow-hidden mb-16 w-[18em]">
+          <img
+            src="/images/image-confetti.jpg"
+            alt="confetti image"
+            class="desktop:h-[13.5em] desktop:w-[27em]"
+          />
+          <div
+            class="mt-10 mx-5 flex justify-center items-start flex-col gap-y-5"
+          >
+            <p class="text-Grayish-Blue">By Clair Robinson</p>
+            <h3
+              class="text-[20px] text-Dark-Blue hover:text-Lime-Green cursor-pointer"
+            >
+              Our invite-only Beta accounts are now live!
+            </h3>
+            <p class="text-Grayish-Blue">
+              After a lot of hard work by the whole team, we're excited to
+              launch our closed beta, it's easy to request an invite through the
+              site ...
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="bg-Dark-Blue flex justify-center items-center flex-col desktop:flex-row desktop:justify-between gap-y-10 text-white py-16 px-20"
+    >
+      <div
+        class="flex justify-center items-center flex-col desktop:flex-row desktop:gap-x-20"
+      >
+        <div class="flex justify-center items-center flex-col gap-y-8">
+          <img src="/images/logo-footer.svg" alt="" class="w-[13em]" />
+
+          <div class="flex justify-center items-center gap-x-5">
+            <img src="/images/icon-facebook.svg" alt="" class="w-8" />
+            <img src="/images/icon-youtube.svg" alt="" class="w-8" />
+            <img src="/images/icon-twitter.svg" alt="" class="w-8" />
+            <img src="/images/icon-pinterest.svg" alt="" class="w-8" />
+            <img src="/images/icon-instagram.svg" alt="" class="w-8" />
+          </div>
+        </div>
+        <nav
+          class="text-center text-[18px] flex flex-col desktop:flex-row gap-x-20 gap-y-5 pt-10"
+        >
+          <span
+            class="text-center text-[18px] flex flex-col desktop:text-left gap-y-5"
+          >
+            <a href="#aboutUs" class="hover:text-Lime-Green cursor-pointer"
+              >About Us</a
+            >
+            <a href="#Contact" class="hover:text-Lime-Green cursor-pointer"
+              >Contact</a
+            >
+            <a href="#Blog" class="hover:text-Lime-Green cursor-pointer"
+              >Blog</a
+            >
+          </span>
+          <span
+            class="text-center text-[18px] flex flex-col desktop:text-left gap-y-5"
+          >
+            <a href="#Careers" class="hover:text-Lime-Green cursor-pointer"
+              >Careers</a
+            >
+            <a href="#Support" class="hover:text-Lime-Green cursor-pointer"
+              >Support</a
+            >
+            <a
+              href="#PrivacyPolicy"
+              class="hover:text-Lime-Green cursor-pointer"
+              >Privacy Policy</a
+            >
+          </span>
+        </nav>
+      </div>
+      <div class="flex justify-center items-center flex-col gap-y-5">
+        <button
+          class="bg-gradient-to-r from-Lime-Green to-Bright-Cyan text-white px-7 py-4 rounded-full text-[18px] hover:brightness-125 cursor-pointer"
+        >
+          Request Invite
+        </button>
+
+        <p class="text-[18px] text-Grayish-Blue">
+          © Easybank. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="src/main.js"></script>
+  </body>
+</html>
