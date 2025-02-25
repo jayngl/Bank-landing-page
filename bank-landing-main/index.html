@@ -50,9 +50,35 @@
       <img
         src="/images/icon-hamburger.svg"
         alt="menu icon"
-        class="w-[2.5em] desktop:hidden"
+        class="w-[1.5em] desktop:hidden"
+        id="toggleMenu"
       />
     </header>
+
+    <div
+      class="desktop:hidden fixed z-50 bg-white right-4 top-20 w-[340px] h-[300px] rounded-[7px] justify-center items-start hidden"
+      id="menu"
+    >
+      <ul
+        class="desktop:flex justify-center items-start text-[18px] text-Dark-Blue mt-5"
+      >
+        <li class="px-5 py-3 hover:text-Lime-Green cursor-pointer">
+          <a href="#home">Home</a>
+        </li>
+        <li class="px-5 py-3 hover:text-Lime-Green cursor-pointer">
+          <a href="#About">About</a>
+        </li>
+        <li class="px-5 py-3 hover:text-Lime-Green cursor-pointer">
+          <a href="#Contact">Contact</a>
+        </li>
+        <li class="px-5 py-3 hover:text-Lime-Green cursor-pointer">
+          <a href="#Blog">Blog</a>
+        </li>
+        <li class="px-5 py-3 hover:text-Lime-Green cursor-pointer">
+          <a href="#Careers">Careers</a>
+        </li>
+      </ul>
+    </div>
     <!-- hero -->
     <section
       class="relative flex justify-center items-center flex-col pb-28 desktop:flex-row desktop:pl-20 overflow-hidden"
